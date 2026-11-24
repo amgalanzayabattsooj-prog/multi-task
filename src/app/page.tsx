@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import TechText from "@/components/animated/TechText";
-import { LaserFooter } from "@/components/LaserFooter";
+// import {LaserFooter} from "@/components/LaserFooter";
 import SplashCursor from "@/components/animated/SplashCursor";
 import GlassSurface from "@/components/animated/GlassSurface";
 import { RegisterForm } from "@/components/register/form/RegisterForm";
@@ -38,9 +38,7 @@ const Home = () => {
               fontFamily="Georgia, serif"
             />
           </h1>
-          <p className="mx-[5%] mt-2 hidden max-w-[31ch] leading-relaxed text-[#cfc2df] lg:block">
-            Create your Astra profile in three steps. Your progress is saved each time you select Continue.
-          </p>
+          <p className="mx-[5%] mt-2 hidden max-w-[31ch] leading-relaxed text-[#cfc2df] lg:block">Create your Astra profile in three steps. Your progress is saved each time you select Continue.</p>
         </section>
 
         <div className="flex min-w-0 flex-col justify-center">
@@ -49,8 +47,7 @@ const Home = () => {
           </GlassSurface>
         </div>
       </main>
-
-      <LaserFooter year={new Date().getFullYear()} />
+  
     </div>
   );
 };
